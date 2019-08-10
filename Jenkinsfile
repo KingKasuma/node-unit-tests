@@ -2,7 +2,7 @@ pipeline {
     agent none;
     
     environment {
-        myUsername = "Mike"
+        myUsername = "Mike777"
     }
     
     stages {
@@ -28,7 +28,7 @@ pipeline {
         }
         stage('Unit Test') {
             environment{
-                myUsername = "Gerald"
+                myUsername = "Gerald777"
             }
             steps{
                 script{
